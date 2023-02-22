@@ -1,0 +1,17 @@
+system MVC:
+    component View:
+        has Suffix "View"
+        is class
+        must reference component Controller
+
+    component Model:
+        has suffix "Model"
+        is class
+        may not reference component View
+        may not reference component Controller
+
+    Component Controller:
+        has suffix "Controller"
+        is class
+        must reference component View
+        must reference component Model
