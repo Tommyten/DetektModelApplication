@@ -6,5 +6,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "DetektPluginTest"
+rootProject.name = "DetektModelApplication"
 
