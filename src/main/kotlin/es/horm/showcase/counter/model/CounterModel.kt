@@ -1,4 +1,4 @@
-package es.horm.showcase.model
+package es.horm.showcase.counter.model
 
 data class CounterModel(
     val currentCount: Int,

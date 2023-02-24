@@ -1,6 +1,6 @@
-package es.horm.showcase.model
+package es.horm.showcase.application.model
 
-import es.horm.showcase.controller.Controller
+import es.horm.showcase.common.controller.Controller
 
 data class ApplicationStateModel(
     val currentController: Controller

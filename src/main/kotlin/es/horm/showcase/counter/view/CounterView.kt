@@ -1,6 +1,6 @@
-package es.horm.showcase.view
+package es.horm.showcase.counter.view
 
-import es.horm.showcase.controller.CounterController
+import es.horm.showcase.counter.controller.CounterController
 import kotlin.system.exitProcess
 
 class CounterView(
@@ -15,7 +15,8 @@ class CounterView(
     }
 
     private fun renderView() {
-        println("Current count is: ${counterController.currentCount.currentCount}")
+        println("Current count is: " +
+                "${counterController.currentCount.currentCount}")
         when(readlnOrNull()?.lowercase()) {
             "plus" -> counterController.onPlusEntered()
             "minus" -> counterController.onMinusEntered()

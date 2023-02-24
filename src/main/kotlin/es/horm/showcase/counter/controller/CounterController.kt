@@ -1,7 +1,9 @@
-package es.horm.showcase.controller
+package es.horm.showcase.counter.controller
 
-import es.horm.showcase.model.CounterModel
-import es.horm.showcase.view.CounterView
+import es.horm.showcase.application.controller.ApplicationController
+import es.horm.showcase.common.controller.Controller
+import es.horm.showcase.counter.model.CounterModel
+import es.horm.showcase.counter.view.CounterView
 import kotlin.properties.Delegates
 
 class CounterController(
